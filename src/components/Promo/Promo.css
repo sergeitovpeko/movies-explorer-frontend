@@ -72,13 +72,13 @@
     width: 89%;
   }
 } */
-@media all and (max-width: 930px) {
+@media all and (max-width: 1024px) {
   .promo__container {
     column-gap: 70px;
   }
 }
 
-@media all and (max-width: 810px) {
+@media all and (max-width: 878px) {
   .promo__container {
     
     display: flex;
@@ -106,7 +106,7 @@
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 561px) {
   
   .promo__logo {
     margin-top: 70px;

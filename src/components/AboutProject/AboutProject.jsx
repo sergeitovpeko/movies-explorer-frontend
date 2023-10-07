@@ -5,7 +5,7 @@ function AboutProject({ refProps }) {
     <section className="about-project" ref={refProps}>
       <h2 className="main__heading">О проекте</h2>
       <div className="about-project__table">
-        <article>
+        <div>
           <h3 className="about-project__table-title">
             Дипломный проект включал 5 этапов
           </h3>
@@ -13,8 +13,8 @@ function AboutProject({ refProps }) {
             Составление плана, работу над бэкендом, вёрстку, добавление
             функциональности и финальные доработки.
           </p>
-        </article>
-        <article>
+        </div>
+        <div>
           <h3 className="about-project__table-title">
             На выполнение диплома ушло 5 недель
           </h3>
@@ -22,7 +22,7 @@ function AboutProject({ refProps }) {
             У каждого этапа был мягкий и жёсткий дедлайн, которые нужно было
             соблюдать, чтобы успешно защититься.
           </p>
-        </article>
+        </div>
       </div>
       <div className="about-project__process">
         <p className="about-project__process-scale about-project__process-scale_green">

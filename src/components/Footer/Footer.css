@@ -17,15 +17,18 @@
   font-weight: 400;
   color: #a0a0a0;
   text-align: center;
-  border-bottom: 1px solid #e8e8e8;
+  
 }
 
 .footer__container {
-  padding: 20px 70px;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  margin: 0 70px;
+  
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
 }
+
 
 .footer__date {
   margin: 0;
@@ -58,7 +61,8 @@
     padding: 79px 0 0;
   }
   .footer__container {
-    padding: 20px 30px;
+    padding: 20px 0;
+  margin: 0 30px;
   }
 }
 

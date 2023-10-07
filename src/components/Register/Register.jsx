@@ -64,6 +64,8 @@ function Register({ onRegister }) {
             onChange={handleChange}
             value="password"
             required
+            minLength="8"
+            maxLength="14"
           />
           <span className="auth-page__error-text">Что-то пошло не так...</span>
         </label>

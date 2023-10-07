@@ -22,7 +22,7 @@ function Login({ onLogin }) {
         buttonText="Войти"
         text="Ещё не зарегистрированы?"
         linkText="Регистрация"
-        page="/signin"
+        page="/signup"
         isDisabled={isSubmitDisabled}
         onSubmit={handleSubmit}
       >

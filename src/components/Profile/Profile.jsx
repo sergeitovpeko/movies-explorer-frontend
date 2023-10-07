@@ -24,7 +24,7 @@ function Profile({ onSubmit, onExit }) {
   return (
     <main>
       <section className="profile">
-        <h2 className="profile__title">Привет, Сергей</h2>
+        <h1 className="profile__title">Привет, Сергей</h1>
         <form className="profile__form" onSubmit={handleSubmit}>
           <label htmlFor="name" className="profile__label">
             Имя

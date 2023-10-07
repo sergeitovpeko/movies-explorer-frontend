@@ -89,6 +89,10 @@
   color: black;
   border: none;
   background: none;
+  cursor: pointer;
+}
+.profile__link:hover {
+  opacity: 0.7;
 }
 
 .profile__link_red {

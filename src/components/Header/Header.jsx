@@ -86,9 +86,9 @@ function Header({ loggedIn, isVisible }) {
                 Регистрация
               </NavLink>
             </nav>
-            <li>
+            <nav>
               <button className="header__button app__button" type="button" onClick={handleLoginButtonClick}>Войти</button>
-            </li>
+            </nav>
           </ul>
         )}
       </div>

@@ -1,7 +1,8 @@
 .portfolio {
-  margin: 101px auto 106px;
+  margin: 101px 70px 106px;
   padding: 0;
   max-width: 1140px;
+  
 }
 
 .portfolio__heading {
@@ -21,12 +22,15 @@
   gap: 20px;
 }
 
+.portfolio__line{
+  border-bottom: 1px solid #e8e8e8;
+}
+
 .portfolio__link {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e8e8e8;
   cursor: pointer;
   background-image: url(../../images/arrow.svg);
   background-repeat: no-repeat;
@@ -34,7 +38,7 @@
   background-size: 18px;
 
 }
-.portfolio__link:last-child {
+.portfolio__links-last{
   border-bottom: none;
 }
 
@@ -63,20 +67,20 @@
 } */
 @media all and (max-width: 768px) {
   .portfolio {
-    width: 87%;
-    margin: 91px auto 71px;
+    
+    margin: 86px 50px 71px;
   }
   .portfolio__link-text {
     font-size: 28px;
     line-height: 178%;
   }
   .portfolio__links {
-    margin: 40px 0 0;
+    margin: 52px 0 0;
     
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   .portfolio {
     width: 290px;
     margin: 70px auto 51px;
